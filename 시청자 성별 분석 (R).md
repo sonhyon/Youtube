@@ -73,3 +73,43 @@ ggplot(viewer_age, aes(x=`시청자 연령`, y=`시청 시간(단위: 시간) (%
   geom_col()
 
 ```
+
+# 연령 및 성별로 분류한 시청자층
+
+```r
+viewer_age_gender <- read_excel('연령 및 성별로 분류한 시청자층.xlsx')
+head(viewer_age_gender)
+
+# 연령대·성별 조회수 비중
+ggplot(viewer_age_gender, aes(x = `시청자 연령`, y = `조회수 (%)`, fill = `시청자 성별`)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = c(
+    "남성" = "#4C72B0",
+    "여성" = "#DD8452"
+  )) +
+  labs(title = "연령대·성별 조회수 비중",
+       x = "시청자 연령",
+       y = "조회수 (%)",
+       fill = "성별") +
+  theme_minimal()
+
+```
+## 연령대·성별 조회수 비중
+
+
+```r
+# 연령대·성별 시청시간 비중
+ggplot(viewer_age_gender, aes(x = `시청자 연령`, y = `시청 시간(단위: 시간) (%)`, fill = `시청자 성별`)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = c(
+    "남성" = "#4C72B0",
+    "여성" = "#DD8452"
+  )) +
+  labs(title = "연령대·성별 시청시간 비중",
+       x = "시청자 연령",
+       y = "시청 시간(단위: 시간) (%)",
+       fill = "성별") +
+  theme_minimal()
+```
+## 연령대·성별 시청시간 비중
+
