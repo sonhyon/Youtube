@@ -128,3 +128,4 @@ ggplot(viewer_region, aes(x=지역, y=조회수, fill = 지역)) +
        fill = '성별')
 ```
 ## 나라별 조회수
+<img width="710" height="587" alt="Image" src="https://github.com/user-attachments/assets/7018daac-08b2-418c-a4c2-97b4f5539293" />
