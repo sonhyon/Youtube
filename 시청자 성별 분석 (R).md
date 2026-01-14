@@ -48,13 +48,19 @@ ggplot(viewer_gender, aes(x = `시청자 성별`, y = `시청 시간(단위: 시
 ```r
 # 시청자 연령별 분석 (R)
 
-```r
+
 # 시청자 연령별 조회수
 viewer_age <- read_excel('시청자 연령.xlsx')
 head(viewer_age)
 
 ggplot(viewer_age, aes(x=`시청자 연령`, y=`조회수 (%)`, fill = `시청자 연령`)) +
   geom_col()
+
+```
+
+<img width="732" height="587" alt="Image" src="https://github.com/user-attachments/assets/a4de550b-2dac-41a6-9c61-1d5bef662b41" />
+
+```r
 
 # 시청자 연령별 평균 시청 지속 시간
 
