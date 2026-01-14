@@ -1,9 +1,5 @@
 # YouTube Analytics: 시청자 성별 분석 (R)
 
----
-
-## 1. 패키지 로드
-
 ```r
 
 library(dplyr) ; library(ggplot2)
