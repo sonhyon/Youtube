@@ -96,7 +96,7 @@ ggplot(viewer_age_gender, aes(x = `시청자 연령`, y = `조회수 (%)`, fill 
 ```
 ## 연령대·성별 조회수 비중
 
-
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0af03ee3-4148-4859-b8c1-2182da306b70" />
 ```r
 # 연령대·성별 시청시간 비중
 ggplot(viewer_age_gender, aes(x = `시청자 연령`, y = `시청 시간(단위: 시간) (%)`, fill = `시청자 성별`)) +
@@ -113,3 +113,4 @@ ggplot(viewer_age_gender, aes(x = `시청자 연령`, y = `시청 시간(단위:
 ```
 ## 연령대·성별 시청시간 비중
 
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/b881c1c0-2a87-4b45-af6a-b59c0eb3bc3d" />
