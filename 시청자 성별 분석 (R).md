@@ -110,6 +110,7 @@ ggplot(viewer_age_gender, aes(x = `시청자 연령`, y = `시청 시간(단위:
        y = "시청 시간(단위: 시간) (%)",
        fill = "성별") +
   theme_minimal()
+
 ```
 ## 연령대·성별 시청시간 비중
 
