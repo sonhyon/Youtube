@@ -58,7 +58,7 @@ ggplot(viewer_age, aes(x=`시청자 연령`, y=`조회수 (%)`, fill = `시청�
 
 ```
 
-<img width="732" height="587" alt="Image" src="https://github.com/user-attachments/assets/a4de550b-2dac-41a6-9c61-1d5bef662b41" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/a4de550b-2dac-41a6-9c61-1d5bef662b41" />
 
 ```r
 
