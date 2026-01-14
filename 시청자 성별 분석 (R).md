@@ -20,7 +20,7 @@ ggplot(viewer_gender, aes(x = `시청자 성별`, y = `조회수 (%)`, fill = `�
     "여성" = "#DD8452"
   ))
 
-![시청자 성별 분석](images/viewer_gender.png)
+<img src="https://github.com/user-attachments/assets/07856016-efff-408f-b168-e336c5221f86" />
 
 # 시청자 성별별 평균시청 지속시간
 
