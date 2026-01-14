@@ -43,7 +43,7 @@ ggplot(viewer_gender, aes(x = `시청자 성별`, y = `시청 시간(단위: 시
 
 ```
 
-<img width="732" height="587" alt="Image" src="https://github.com/user-attachments/assets/06cd5453-aee0-47f9-bfd1-640091f11490" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/06cd5453-aee0-47f9-bfd1-640091f11490" />
 
 ```r
 # 시청자 연령별 분석 (R)
