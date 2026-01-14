@@ -40,4 +40,4 @@ ggplot(viewer_gender, aes(x = `시청자 성별`, y = `시청 시간(단위: 시
   scale_fill_manual(values = c(
     "남성" = "#4C72B0",
 
----
+```
