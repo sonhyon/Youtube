@@ -114,3 +114,17 @@ ggplot(viewer_age_gender, aes(x = `시청자 연령`, y = `시청 시간(단위:
 ```
 ## 연령대·성별 시청시간 비중
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/b881c1c0-2a87-4b45-af6a-b59c0eb3bc3d" />
+
+```r
+viewer_region <- read_excel('지역별 조회수.xlsx')
+viewer_region <- viewer_region[-1, ]
+head(viewer_region)
+
+ggplot(viewer_region, aes(x=지역, y=조회수, fill = 지역)) +
+  geom_col() +
+  labs(title = '나라별 조회수',
+       x = '지역',
+       y = '조회수',
+       fill = '성별')
+```
+## 나라별 조회수
