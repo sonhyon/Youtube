@@ -1,4 +1,4 @@
-# YouTube Analytics: 시청자 성별 분석 (R)
+# 시청자 성별 분석 (R)
 
 ```r
 
