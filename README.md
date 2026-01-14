@@ -1,3 +1,14 @@
+# YouTube Analytics: 시청자 성별 분석 (R)
+
+본 프로젝트는 유튜브 채널의 **시청자 성별별 지표**를 분석하여  
+조회수, 평균 조회율, 시청 시간의 차이를 시각화하는 것을 목표로 한다.
+
+---
+
+## 1. 패키지 로드
+
+```r
+
 library(dplyr) ; library(ggplot2)
 
 getwd()
@@ -31,5 +42,12 @@ ggplot(viewer_gender, aes(x = `시청자 성별`, y = `시청 시간(단위: 시
   geom_col() +
   scale_fill_manual(values = c(
     "남성" = "#4C72B0",
+
+
+---
+
+## ✅ 깃허브에 올릴 때 추천 구조
+
+
     "여성" = "#DD8452"
   ))
